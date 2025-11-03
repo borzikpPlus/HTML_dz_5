@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.35;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.news {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 16px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 18px 0;
+    border-top: 1px dotted #b7dbe5;
+}
+
+.item:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.text {
+    flex: 1;
+}
+
+.title {
+    margin: 0 0 6px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0075b0; /* Синий цвет заголовков как на картинке */
+}
+
+.lead {
+    text-align: justify;
+    font-size: 15px;
+    color: #000000;
+}
+
+.thumb {
+    flex: 0 0 auto;
+    width: 160px;
+}
+
+.thumb img {
+    display: block;
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #cccccc;
+}
+
+.more {
+    text-decoration: none;
+    font-weight: 700;
+    color: #0075b0;
+    margin-left: 6px;
+}
